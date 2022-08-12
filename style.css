@@ -91,6 +91,81 @@ input[type='text'] {
     opacity: 1;
 }
 
+.selected-meal-details {
+    margin: 30px auto;
+    width: 70%;
+}
+
+.selected-meal-details img {
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.selected-meal-info {
+    margin: 20px;
+    padding: 10px;
+    border: 2px dotted white;
+    border-radius: 10px;
+}
+
+.selected-meal-instructions {
+    margin: 0;
+    letter-spacing: .5px;
+    line-height: 1.5;
+    text-align: justify;
+
+}
+
+.selected-meal-instructions ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.selected-meal-instructions ul li {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.random_meal_details {
+    margin: 30px auto;
+    width: 70%;
+}
+
+.random_meal_details img {
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.random_meal_info {
+    margin: 20px;
+    padding: 10px;
+    border: 2px dotted white;
+    border-radius: 10px;
+}
+
+.random_meal_instructions {
+    margin: 0;
+    letter-spacing: .5px;
+    line-height: 1.5;
+    text-align: justify;
+
+}
+.random_meal_instructions ul{
+    padding-left: 0;
+    list-style-type: none;
+}
+.random_meal_instructions ul li {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+}
 
 @media (max-width: 500px) {
     input[type='text'] {
